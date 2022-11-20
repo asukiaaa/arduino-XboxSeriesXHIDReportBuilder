@@ -56,4 +56,4 @@ class ReportBase {
   }
 };
 
-}  // namespace XboxControllerVivrationBuilder_asukiaaa
+}  // namespace XboxSeriesXHIDReportBuilder_asukiaaa
