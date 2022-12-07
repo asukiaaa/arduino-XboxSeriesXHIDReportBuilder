@@ -54,6 +54,20 @@ class ReportBase {
     v.timeSilent = 0;
     v.countRepeat = 0;
   }
+
+  void setAllOff() {
+    v.select.center = false;
+    v.select.left = false;
+    v.select.right = false;
+    v.select.shake = false;
+    v.power.center = 0;
+    v.power.left = 0;
+    v.power.right = 0;
+    v.power.shake = 0;
+    v.timeActive = 0;
+    v.timeSilent = 0;
+    v.countRepeat = 0;
+  }
 };
 
 }  // namespace XboxSeriesXHIDReportBuilder_asukiaaa
